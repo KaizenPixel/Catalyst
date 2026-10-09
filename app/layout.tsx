@@ -5,9 +5,6 @@ import "./surfaces.css";
 export const metadata: Metadata = {
   title: "Catalyst · Development Mentor",
   description: "Learn software engineering through guided reviews of your own projects.",
-  other: {
-    "codex-preview": "development",
-  },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

@@ -21,6 +21,14 @@
 # misc
 .DS_Store
 *.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+/.npmrc
+/.vscode/
+/.idea/
 
 # debug
 npm-debug.log*
@@ -36,6 +44,7 @@ yarn-error.log*
 
 # typescript
 next-env.d.ts
+*.tsbuildinfo
 /dist/
 /.wrangler/
 # Checkout-local execution profile and tool state; never publish them.
@@ -48,3 +57,24 @@ next-env.d.ts
 # Local Cloudflare secrets
 .dev.vars*
 !.dev.vars.example
+
+# Local development notes and retired preview scaffolding
+/.openai/
+/AI-SETUP.md
+/DEMO.md
+/PROFESSOR-GUIDE.md
+/PROFESSOR-GUIDE.txt
+/AGENTS.md
+/CLAUDE.md
+/.cursor/
+/scripts/
+/app/chatgpt-auth.ts
+/build/sites-*
+/build/connector-preview-*
+/components/connector-error.tsx
+/lib/connector-*
+/lib/connectors.ts
+/db/
+/drizzle/
+/drizzle.config.ts
+/examples/
