@@ -16,29 +16,4 @@ Select a project folder. Catalyst checks supported files locally and displays fi
 
 Source files stay in browser memory. Gemini receives the finding type, language, review stage, and selected question through a server endpoint. The API key stays on the server. Reloading clears the imported project, notes, and history; export anything you want to keep.
 
-## Run locally
 
-Requires Node.js 22.13 or newer and npm.
-
-```sh
-npm install
-npm run dev
-```
-
-Open http://localhost:3001.
-
-For Gemini, copy `.dev.vars.example` to `.dev.vars`, set `GEMINI_API_KEY`, and restart the server. Keep `.dev.vars` out of Git. Local review and Impact Lab work without a key.
-
-## Stack
-
-React, TypeScript, Tailwind CSS, Vinext/Vite, Cloudflare Workers, Gemini API, and Babel for dependency parsing.
-
-## Checks
-
-```sh
-npm test
-npm run typecheck
-npm run build
-```
-
-Reviews use heuristics and do not execute project code or tests. Imports support up to 500 files, 10 MB per project, and 250 KB per file. The mentor endpoint currently supports local use only.
