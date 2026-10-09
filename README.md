@@ -1,4 +1,5 @@
 # Catalyst
+<<<<<<< HEAD
 
 A local development workspace that reviews your own JavaScript, TypeScript, or Python project and uses Gemini to teach the concepts behind detected findings.
 
@@ -58,3 +59,6 @@ See [DEMO.md](DEMO.md) for the mentor walkthrough.
 
 See [PROFESSOR-GUIDE.md](PROFESSOR-GUIDE.md) for the architecture, API-key flow, measured token usage, pricing references, and presentation talking points.
 
+=======
+Catalyst, an AI-powered development mentor for beginner software developers. It helps users understand their mistakes and learn from their own projects.
+>>>>>>> 1bfa4eaecc4e56d7233b1e54d98c1ae2f587a53e
